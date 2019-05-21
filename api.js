@@ -28,7 +28,7 @@ api.get('/', (req, res) => {
 
     Put something after the / to change it to all uppercase
 
-github.com/joshkmartinez/caps
+    github.com/joshkmartinez/caps-as-a-service
     `
   )
 })
