@@ -29,6 +29,9 @@ api.get('/', (req, res) => {
     Put something after the / to change it to all uppercase
 
     github.com/joshkmartinez/caps-as-a-service
+
+    speaking of which... have you hear of All Lowercase As a Service?
+    Check it out https://low.now.sh
     `
   )
 })
