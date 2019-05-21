@@ -1,6 +1,14 @@
 {
   "name": "All Caps As a Service",
-  "alias": ["AllCapsAsaService", "acaas", "caas", "cap", "capital"],
+  "alias": [
+    "AllCapsAsaService",
+    "acaas",
+    "caas",
+    "cap",
+    "capital",
+    "upper",
+    "uppercase"
+  ],
   "version": 2,
   "builds": [{ "src": "api.js", "use": "@now/node-server" }],
   "routes": [{ "src": "/(.*)", "dest": "api.js" }],
