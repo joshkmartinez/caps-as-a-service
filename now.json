@@ -1,0 +1,10 @@
+{
+  "name": "All Caps As a Service",
+  "alias": ["AllCapsAsaService", "acaas", "caas", "cap", "capital"],
+  "version": 2,
+  "builds": [{ "src": "api.js", "use": "@now/node-server" }],
+  "routes": [{ "src": "/(.*)", "dest": "api.js" }],
+  "github": {
+    "silent": true
+  }
+}

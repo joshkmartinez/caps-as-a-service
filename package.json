@@ -1,0 +1,19 @@
+{
+  "name": "cap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api.js",
+    "deploy": "now --target production"
+  },
+  "keywords": [],
+  "author": "Joshua Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "now": "^15.3.0"
+  }
+}
